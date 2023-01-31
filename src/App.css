@@ -1,0 +1,48 @@
+#root{
+    width: 100%;
+}
+@media (max-width: 727px) {
+    .conteiner{
+        align-content: center;
+        align-items: center;
+    }
+    .workplace{
+        margin: 0 10px 20px 10px;
+    }
+    .inf-text{
+        padding: 0 10px 20px 10px;
+        color: rgb(183, 179, 200);
+    }
+    .slider{
+        padding: 0 10px 20px 10px;
+    }
+    .brands{
+        padding-left: 50px;
+    }
+    .brand{
+        width: 130px;
+    }
+    .end-links{
+        padding-top: 40px;
+    }
+    .conn-us{
+        margin-left: 80px;
+    }
+    .end-title{
+        padding-left: 80px;
+    }
+    .end-pic-3{
+        margin-left: 30px;
+    }
+  }
+  @media (max-width: 760px) {
+    .workplace{
+        width: 340px;
+        margin-left: 60px;
+    }
+  }
+  @media (max-width: 1160px) {
+    .movie-big{
+        display: block;
+    }
+  }

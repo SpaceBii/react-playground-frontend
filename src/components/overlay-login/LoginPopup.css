@@ -1,0 +1,56 @@
+.login-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-popup{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background:linear-gradient(blue, white);
+}
+.inner-popup .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.acc-inp, .pass-inp{
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.log-btn{
+    margin-left: 190px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.conn{
+    width: 30px;
+}
+.conn:hover{
+    color: rgb(29, 9, 128);
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+    cursor: pointer;
+}
+.close-btn{
+    border-radius: 10px;
+    background-color: rgb(29, 9, 128);
+    color: white;
+}
+.close-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.reg-link{
+    text-decoration: none;
+    font-weight: bold;
+}

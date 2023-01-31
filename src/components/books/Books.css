@@ -1,0 +1,32 @@
+.books-intro{
+    background:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.books-img{
+    display: inline;
+    border-radius:500px 80px 210px 200px;
+    max-width: 600px;
+    max-height: 600px;
+    padding-bottom: 20px;
+}
+.line-3{
+    content: " ";
+    position: absolute;
+    width: 5em;
+    background: #ba1551;
+    height: 0.2em;
+    z-index: -1;
+    margin-top: 25px;
+}
+.books-title{
+    text-shadow: 1px 1px #d02564;
+}
+.books-text{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #ba1551;
+}

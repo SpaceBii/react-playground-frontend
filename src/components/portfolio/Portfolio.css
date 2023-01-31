@@ -1,0 +1,83 @@
+.workplace{
+    border-radius: 120px 20px 160px 40px;
+    margin: 50px 0 10px 75px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.portfolio{
+    width: 100%;
+}
+.guy{
+    border-radius: 240px 240px 20px 20px;
+    background:linear-gradient(#08629c, rgba(255, 0, 0, 0));
+    margin: 50px 0 0 20px;
+}
+.proj-text{
+    margin-right: 20px;
+    padding-right: 0;
+}
+.intro{
+    background:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.inf-text{
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #08629c;
+}
+.slider{
+    padding: 10px 0 50px 120px;
+    margin-bottom: 10px;
+}
+.title-img{
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+    margin: 10px;
+}
+.title{
+    position: relative;
+    display: inline-flex;
+    padding: 25px 0 0 20px;
+    z-index: 2;
+}
+.proj-title{
+    text-shadow: 1px 1px #08779c; 
+}
+.line{
+    content: " ";
+    position: absolute;
+    width: 5em;
+    bottom: 13px;
+    background: #08779c;
+    height: 0.2em;
+    z-index: -1;
+
+}
+.proj-line{
+    width: auto;
+    margin: 0 20px 20px 20px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.my-proj-1{
+    margin-left: 20px;
+    border-radius: 40px 70px 90px 120px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.my-proj-2{
+    border-radius: 70px 50px 70px 110px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.my-proj-3{
+    border-radius: 40px 90px 30px 130px;
+    box-shadow: 6px 2px 19px 2px rgba(0,0,0,0.95);
+}
+.my-proj-text{
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #08629c;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}

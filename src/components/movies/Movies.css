@@ -1,0 +1,44 @@
+.movie-intro{
+    background:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.movie-text{
+    display: inline-block;
+}
+.movie-big-box{
+    display: inline;
+}
+.movie-big{
+    display: inline;
+    border-radius: 400px 200px 90px 110px;
+    padding-bottom: 30px;
+}
+.movie-text{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #be1b95;
+}
+.line-2{
+    content: " ";
+    position: absolute;
+    width: 5em;
+    background: #be1b95;
+    height: 0.2em;
+    z-index: -1;
+    margin-top: 25px;
+}
+.movie-title{
+    text-shadow: 1px 1px #be1b95; 
+}
+.proj-line{
+    margin: 0 -20px 20px 20px;
+}
+.movie-resu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

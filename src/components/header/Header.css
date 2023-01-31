@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background: linear-gradient( #080808cc, #08629c);
+  font-size: 20px;
+}
+.menu {
+  float: right;
+  position: relative;
+  padding-right: 10px;
+}
+.search {
+  margin-top: 18px;
+  padding-left: 50px;
+}
+.log {
+  height: 38px;
+  margin-left: 25px;
+  display: inline;
+  margin-top: 15px;
+}
+.header a {
+  color: black;
+  font-family: bold;
+}
+
+.logo {
+  float: left;
+  padding-left: 150px;
+}
+
+.logo-pic {
+  width: 180px;
+  height: 70px;
+}
+@media (max-width: 992px){
+  .logo{
+    margin-left: 200px;
+  }
+  .menu{
+    padding-left: 0;
+  }
+}
+@media (max-width: 552px){
+  .logo{
+    margin-left: 30px;
+  }
+}
